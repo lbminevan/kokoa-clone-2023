@@ -1,3 +1,4 @@
 # Kokoa Clone 2023 Update
 
-HTML & CSS are so much fun!
+This is clone coding for KakaoTalk
+KakaoTal is the famous chatting application in korea so I just copied KakaoTalk display.
