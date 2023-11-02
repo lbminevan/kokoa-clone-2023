@@ -1,0 +1,39 @@
+.status-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa  ;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-top:1px solid rgba(121,121,121,0.3 );
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    color: #2e363e;
+    position: relative;
+}
+.nav__notification{
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+.nav__setting{
+    color:tomato;
+    font-size:40px;
+    display:flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 22px;
+    left: 25px;
+    
+}
