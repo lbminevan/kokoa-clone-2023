@@ -11,6 +11,19 @@
     align-items: center;
 }
 
+.user-component:last-child .user-component__column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-component:last-child span{
+    display: block;
+}
+.user-component:last-child i{
+    display: block;
+}
+
 .user-component__avatar{
     width: 70px;
     height: 70px;

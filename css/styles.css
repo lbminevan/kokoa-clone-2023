@@ -8,11 +8,14 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 /*Screens*/
 @import "screens/login.css";
 @import "screens/frends.css"; 
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chats.css";
 
 body{
     color: #2e363e;
