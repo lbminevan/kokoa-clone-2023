@@ -104,18 +104,19 @@
 }
 
 .reply input{
-    padding: 12px;
+    padding: 10px;
     width: 100%;
     border : var(--common-border);
     border-radius: 20px;
+    margin-left: -10px;
 }
 
 .reply .reply__column:first-child{
-    width: 5%;
+    width: 10%;
 }
 
 .reply .reply__column:last-child{
-    width: 95%;
+    width: 90%;
     position: relative;
 }
 
@@ -131,6 +132,9 @@
     top: 20px;
 }
 
+.reply__column button i{
+    opacity: 1;
+}
 .reply__column button{
     background-color: yellow;
     border: none;
